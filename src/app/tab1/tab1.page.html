@@ -1,17 +1,50 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="danger">
     <ion-title>
-      Tab 1
+      Lanches
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/icon/misto_quente.jpg">
+    </ion-thumbnail>
+    <ion-label>MISTO QUENTE <p>Pão francês / Presunto / Mussarela / Tomate</p></ion-label>
+    <ion-badge color="success">R$9,10</ion-badge>
+  </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/icon/x_frango.png">
+    </ion-thumbnail>
+    <ion-label>X FRANGO <p>Filé de frango / Mussarela / Presunto / Maionese / Catupiry / Tomate / Milho</p></ion-label>
+    <ion-badge color="success">R$24,99</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/icon/x_salada.jpg">
+    </ion-thumbnail>
+    <ion-label>X SALADA <p>Hambúrguer / Mussarela / Maionese / Alface / Tomete</p></ion-label>
+    <ion-badge color="success">R$20,50</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/icon/hot_dog.jpg">
+    </ion-thumbnail>
+    <ion-label>HOT DOG <p>Salsicha / Bacon / Milho / Tomate / Maionese / Batata palha</p></ion-label>
+    <ion-badge color="success">R$14,90</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="assets/icon/pao_chapa.png">
+    </ion-thumbnail>
+    <ion-label>PÃO NA CHAPA <p>Pão de forma com manteiga</p></ion-label>
+    <ion-badge color="success">R$2,99</ion-badge>
+  </ion-item>
+
 </ion-content>
